@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Permisos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>PERMISOS</h1>
+
+  <input type="text" id="permiso" value="777" maxlength="3">
+
+  <div class="select-grupos">
+    <label>Propietario:</label>
+    <select id="propietario">
+      <option value="7">rwx - Lectura, Escritura y Ejecución</option>
+      <option value="6">rw- - Lectura y Escritura</option>
+      <option value="5">r-x - Lectura y Ejecución</option>
+      <option value="4">r-- - Solo Lectura</option>
+      <option value="0">--- - Sin permisos</option>
+    </select>
+  </div>
+
+  <div class="select-grupos">
+    <label>Grupo:</label>
+    <select id="grupos">
+      <option value="7">rwx - Lectura, Escritura y Ejecución</option>
+      <option value="6">rw- - Lectura y Escritura</option>
+      <option value="5">r-x - Lectura y Ejecución</option>
+      <option value="4">r-- - Solo Lectura</option>
+      <option value="0">--- - Sin permisos</option>
+    </select>
+  </div>
+
+  <div class="select-grupos">
+    <label>Otros:</label>
+    <select id="otros">
+      <option value="7">rwx - Lectura, Escritura y Ejecución</option>
+      <option value="6">rw- - Lectura y Escritura</option>
+      <option value="5">r-x - Lectura y Ejecución</option>
+      <option value="4">r-- - Solo Lectura</option>
+      <option value="0">--- - Sin permisos</option>
+    </select>
+  </div>
+
+</div>
+
+</body>
+</html>
