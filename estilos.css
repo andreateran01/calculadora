@@ -66,3 +66,17 @@ select:focus, input:focus {
   outline: none;
   border-color: #c6a88f;
 }
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #7ac9ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2d78e1;
+}
